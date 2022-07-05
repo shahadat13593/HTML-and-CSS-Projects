@@ -29,6 +29,8 @@ body {
 
 .Header-color {
   color: #1098ad;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .img {
   margin-bottom: 40px;
@@ -228,4 +230,7 @@ h2::before {
   right: -25px;
   top: -25px;
   color: black;
+}
+.NAV {
+  text-align: center;
 }

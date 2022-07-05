@@ -8,11 +8,27 @@ body {
 }
 .container {
   width: 825px;
-
   margin: 50px auto;
 }
+.sale {
+  background-color: red;
+  color: white;
+  padding: 7px 15px;
+  font-size: 12px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+
+  position: absolute;
+  top: -17px;
+  left: -38px;
+  letter-spacing: 2px;
+}
+
 article {
   border: black solid;
+  position: relative;
 }
 .f-h2 {
   font-size: 18px;
@@ -74,4 +90,51 @@ button:hover {
 }
 ul {
   list-style: square;
+}
+
+.div-1 {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin: 5px;
+}
+.div-2 {
+  background-color: blue;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin: 5px;
+}
+.div-3 {
+  background-color: red;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin: 5px;
+}
+.div-4 {
+  background-color: yellow;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin: 5px;
+}
+.div-5 {
+  background-color: greenyellow;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin: 5px;
+}
+.div-6 {
+  background-color: darkslategray;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin: 5px;
+}
+.a-l {
+  display: inline-block;
+  margin-bottom: 20px;
 }
