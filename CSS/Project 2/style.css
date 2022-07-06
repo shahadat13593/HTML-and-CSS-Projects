@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ----------------nav--------------------- */
+.nav {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(10, 124, 223, 0.929);
+  text-align: center;
+}
+.nav-header {
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 50px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+h1::first-letter {
+  font-size: 52px;
+  font-style: normal;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 15px;
+  font-size: 22px;
+  color: black;
+  cursor: pointer;
+}
+.nav-link:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* -------------------------end of nav--------------------- */
+
+/* -------------------------article start--------------------- */
+article {
+  position: relative;
+}
+.img {
+  width: 100%;
+}
+.article-header {
+  padding: 20px;
+}
+.extra {
+  background-color: yellow;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+
+  position: absolute;
+  top: 80px;
+  right: 50px;
+}
+.article-h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.Photo-of-Author {
+  width: 125px;
+  height: 125px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+p {
+  font-size: 25px;
+  line-height: 1.5;
+  margin: 15px;
+}
+h3 {
+  font-size: 35px;
+  margin: 25px 0px;
+}
+
+ul {
+  list-style: square;
+}
+li {
+  font-size: 22px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+section li:first-child {
+  font-weight: bold;
+}
+.mdn-link {
+  color: black;
+}
+.mdn-link:hover {
+  color: white;
+  background: rgba(10, 124, 223, 0.929);
+  text-decoration: none;
+}
+section p::first-letter {
+  font-weight: bold;
+  font-size: 30px;
+}
+/* -------------------------article start--------------------- */
+
+/* --------------- related post------------------ */
+aside {
+  background-color: rgb(218, 215, 215);
+  width: 580px;
+  border-top: 8px rgb(15, 181, 184) solid;
+  border-bottom: 8px rgb(15, 181, 184) solid;
+}
+.aside-h3 {
+  text-align: center;
+}
+.aside-img {
+  width: 75px;
+  height: auto;
+}
+.aside-list {
+  list-style: none;
+}
+.related-author {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* --------------------footer------------------------- */
+footer {
+  margin: 25px 0;
+  text-align: center;
+}
+.footer-p {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* ------------------------------for second page-------------------------- */
+.coantact-h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.coantact-h3 {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 10px 0;
+}
+.coantact-p {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 15px 0;
+}
+.coantact-p::first-letter {
+  font-size: 20px;
+  font-weight: 200;
+}
+form {
+  background-color: rgb(233, 228, 219);
+  padding: 30px 40px;
+}
