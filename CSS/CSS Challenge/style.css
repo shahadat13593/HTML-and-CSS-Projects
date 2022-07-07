@@ -1,13 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
   line-height: 1.4;
 }
 .container {
-  width: 825px;
+  width: 900px;
   margin: 50px auto;
 }
 .sale {
@@ -137,4 +138,50 @@ ul {
 .a-l {
   display: inline-block;
   margin-bottom: 20px;
+}
+
+/*-------------------- float------------------- */
+.img-p {
+  width: 300px;
+  display: inline;
+  padding: 20px;
+}
+.first-sec {
+  box-sizing: border-box;
+  /* background-color: violet; */
+  width: 300px;
+  float: left;
+}
+
+.second-sec {
+  /* background-color: brown; */
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+  padding: 15px;
+  margin-top: 20px;
+}
+.third-sec {
+  /* background: #777; */
+  width: 290px;
+  float: right;
+  padding: 20px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+.middle {
+  box-sizing: border-box;
+}
+
+.p-text {
+  float: left;
+}
+.p-sfont {
+  float: right;
+  margin-top: 7px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }

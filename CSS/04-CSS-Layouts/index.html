@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+
     <title>The Basic Language of the Web: HTML</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -18,21 +19,21 @@
 
     <div class="container">
       <header class="main-header clearfix">
-        <h1 class="Header-color">📘 The Code Magazine</h1>
+        <h1>📘 The Code Magazine</h1>
 
-        <nav class="NAV">
+        <nav>
           <!-- <strong>This is the navigation</strong> -->
-          <a href="blog.html" class="nav-link">Blog</a>
-          <a href="#" class="nav-link">Challenges</a>
-          <a href="#" class="nav-link">Flexbox</a>
-          <a href="#" class="nav-link">CSS Grid</a>
+          <a href="blog.html">Blog</a>
+          <a href="#">Challenges</a>
+          <a href="#">Flexbox</a>
+          <a href="#">CSS Grid</a>
         </nav>
-        <!-- <div class="clear"></div> -->
+        <div class="clear"></div>
       </header>
 
       <article>
-        <header>
-          <h2 class="Header-color">The Basic Language of the Web: HTML</h2>
+        <header class="post-header">
+          <h2>The Basic Language of the Web: HTML</h2>
 
           <img
             src="img/laura-jones.jpg"
@@ -43,7 +44,7 @@
           />
 
           <p id="author" class="author">
-            Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027.
+            Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
           </p>
 
           <img
@@ -51,7 +52,7 @@
             alt="HTML code on a screen"
             width="500"
             height="200"
-            class="img"
+            class="post-img"
           />
         </header>
 
@@ -67,7 +68,7 @@
           about, and why you too should learn it.
         </p>
 
-        <h3 class="Header-color">What is HTML?</h3>
+        <h3>What is HTML?</h3>
         <p>
           HTML stands for <strong>H</strong>yper<strong>T</strong>ext
           <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
@@ -96,7 +97,7 @@
           >.
         </p>
 
-        <h3 class="Header-color">Why should you learn HTML?</h3>
+        <h3>Why should you learn HTML?</h3>
 
         <p>
           There are countless reasons for learning the fundamental language of
@@ -120,16 +121,15 @@
       </article>
 
       <aside>
-        <h4 class="Header-color">Related posts</h4>
+        <h4>Related posts</h4>
 
-        <ul class="Realated">
+        <ul class="related">
           <li>
             <img
               src="img/related-1.jpg"
               alt="Person programming"
               width="75"
               height="75"
-              class="a-img"
             />
             <a href="#">How to Learn Web Development</a>
             <p class="related-author">By Jonas Schmedtmann</p>
@@ -140,7 +140,6 @@
               alt="Lightning"
               width="75"
               height="75"
-              class="a-img"
             />
             <a href="#">The Unknown Powers of CSS</a>
             <p class="related-author">By Jim Dillon</p>
@@ -151,7 +150,6 @@
               alt="JavaScript code on a screen"
               width="75"
               height="75"
-              class="a-img"
             />
             <a href="#">Why JavaScript is Awesome</a>
             <p class="related-author">By Matilda</p>
@@ -164,7 +162,6 @@
           Copyright &copy; 2027 by The Code Magazine.
         </p>
       </footer>
-      <button>Like</button>
     </div>
   </body>
 </html>
