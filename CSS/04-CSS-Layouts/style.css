@@ -27,7 +27,7 @@ body {
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
 }
 
@@ -37,7 +37,7 @@ nav {
 }
 
 article {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .post-header {
@@ -345,7 +345,11 @@ footer {
   font-weight: normal;
   font-style: italic;
 }
-.row {
+
+/* flex-box layout */
+
+
+/* .row {
   display: flex;
   gap: 75px;
   align-items: flex-start;
@@ -357,4 +361,26 @@ article {
 }
 aside {
   flex: 0 0 300px;
+} */
+
+/* grid */
+.container{
+display: grid;
+grid-template-columns:1fr 300px;
+column-gap: 75px;
+row-gap: 60px;
+
+}
+.main-header{
+  grid-column: 1/span 2;
+
+}
+article{
+
+}
+aside{
+  align-self: start;
+
+}footer{
+  grid-column: 1/span 2;
 }
