@@ -29,6 +29,7 @@ bold: 700
 *- Tints:
 #fdf2e9
 #f8d8bd	
+#eb984e
 
 *- shades:
 #cf711f
@@ -36,11 +37,14 @@ bold: 700
 *- Greys:
 #555
 #333
+#6f6f6f
 
 *--- 05 Shadows 
+ 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 *--- 06 Border-radius
 Default: 9px
+MEAL CARD: 11PX
 
 *--- 07 WhiteSpace
 *- SPACING SYSTEM (px)
@@ -81,10 +85,19 @@ body{
 
  .grid{
     display: grid;
-    column-gap:4.8rem ;
+    column-gap:6.4rem ;
     row-gap:9.6rem;
 
+  
+
+
  }
+
+.grid:not(:last-child){
+    margin-bottom: 9.6rem;
+
+}
+
 .grid--2-cols{
     grid-template-columns: repeat(2, 1fr);
     
@@ -138,10 +151,21 @@ body{
    
     
 }
+.btn-form{
+    background-color: #45260a;
+    color: #fdf2e9;
+   align-self: end;
+   padding: 1.2rem !important;
+}
+.btn-form:hover{
+    background-color:#FFF ;
+    color: #555;
+
+}
 
 
        
-.btn:link, .btn:visited{
+.btn:link, .btn:visited, .btn{
     
     font-size: 2rem;
     font-weight: 600;
@@ -152,8 +176,12 @@ body{
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
 
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 
-    transition: background-color 0.3s;
+
+    transition: all 0.3s;
 }
 
 .btn--full, .btn--full:visited{
@@ -175,7 +203,71 @@ body{
     box-shadow:inset 0 0 0 3px #fff;
    
 }
+
+.link:link,
+.link:visited{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 0.2rem;
+    display: inline-block;
+    transition: all 0.3s;
+
+}
+.link:hover,
+.link:active{
+    color: #cf711f;
+    border-bottom: 1px solid transparent;
+
+}
+
+
+
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    
+ }
+
+ .list-item{
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+ }
+ .list-icon{
+    width: 3.2rem;
+    height: 3.2rem;
+    color: #cf711f;
+
+ }
+
+ *:focus{
+    outline: none;
+    /* outline: 4px dotted #e67e22;
+    outline-offset: 8px; */
+
+    box-shadow:0 0 0 0.8rem  rgba(231, 127, 35, 0.504);
+
+ }
+
+/* *
+*--------------------------setting classes-----------------------
+
+ */
 .margin-right-sm{
     margin-right: 1.6rem !important;
 }
+.margin-bottom-md{
+    margin-bottom: 4.8rem !important;
+}
 
+.center-text{
+    text-align: center;
+}
+strong{
+    font-weight: 500;
+}
