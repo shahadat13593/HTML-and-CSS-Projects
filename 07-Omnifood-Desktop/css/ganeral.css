@@ -38,6 +38,8 @@ bold: 700
 #555
 #333
 #6f6f6f
+#888
+#767676
 
 *--- 05 Shadows 
  0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
@@ -110,6 +112,9 @@ body{
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols{
+    grid-template-columns: repeat(5, 1fr);
+}
 .grid--center-v{
     align-items: center;
 }
@@ -250,7 +255,7 @@ body{
     /* outline: 4px dotted #e67e22;
     outline-offset: 8px; */
 
-    box-shadow:0 0 0 0.8rem  rgba(231, 127, 35, 0.504);
+    /* box-shadow:0 0 0 0.8rem  rgba(231, 127, 35, 0.504); */
 
  }
 
