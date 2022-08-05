@@ -65,6 +65,8 @@ MEAL CARD: 11PX
 html{
     /* font-size: 10px; */
     font-size: 62.5%;
+
+  overflow-x: hidden;
 }
 
 body{
@@ -72,6 +74,8 @@ body{
  line-height: 1;
  font-weight: 400;
  color: #555;
+
+ overflow-x: hidden;
 
 }
 /* *
@@ -241,7 +245,7 @@ body{
   font-size: 1.8rem;
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1.6rem;line-height: 1.2;
  }
  .list-icon{
     width: 3.2rem;
